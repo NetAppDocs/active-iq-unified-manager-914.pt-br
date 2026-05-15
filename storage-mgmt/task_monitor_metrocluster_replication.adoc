@@ -29,7 +29,7 @@ Para configurações MetroCluster sobre IP, o status da replicação de dados é
 * *Proteção* > *relacionamentos* > *relacionamento: Vista MetroCluster*
 
 
-Para obter informações, link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip["Monitore problemas de conetividade no MetroCluster sobre IP"]consulte .
+Para obter informações, consulte link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip-configuration["Monitore problemas de conetividade no MetroCluster sobre IP"].
 
 
 

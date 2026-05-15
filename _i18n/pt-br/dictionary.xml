@@ -1490,14 +1490,11 @@
   <block id="a3ec58cb7e9bf89ef726ec0d99330264" category="paragraph">Em um servidor físico, adicione capacidade à unidade lógica na qual o servidor do Unified Manager está instalado.</block>
   <block id="58e7b60f294b271a4bc9c01cccff27e5" category="paragraph">Siga as etapas no tópico da Microsoft:</block>
   <block id="97424b0770e65ad13c37e9c4e0bf64e7" category="inline-link">Estender um volume básico</block>
-  <block id="3771c84b1045d5ccd8689f90b09f9ac1" category="paragraph"><block ref="3771c84b1045d5ccd8689f90b09f9ac1" category="inline-link-rx"></block></block>
   <block id="bc78f8459cc3f99966ec858559866c73" category="paragraph">Em um servidor físico, adicione uma unidade de disco rígido.</block>
   <block id="ccdf2f614d8c68d046e904c7e5c8f784" category="inline-link">Adicionar unidades de disco rígido</block>
-  <block id="6f7d162b9b4778023baeb8b3f6e0072c" category="paragraph"><block ref="6f7d162b9b4778023baeb8b3f6e0072c" category="inline-link-rx"></block></block>
   <block id="6c4f6491c1007de757c7587546b655d2" category="paragraph">Em uma máquina virtual, aumente o tamanho de uma partição de disco.</block>
   <block id="1c9690b8244451e91730c655ec71a542" category="paragraph">Siga as etapas no tópico VMware:</block>
   <block id="5254296818aa13c00d8252c86b324630" category="inline-link">Aumentando o tamanho de uma partição de disco</block>
-  <block id="301c0a1773cbd034466e002644e3ab94" category="paragraph"><block ref="7d192e27a5a594f0b284619bff944ea7" category="inline-link-rx"></block></block>
   <block id="37947a9d67ea66a417a551a4f0800274" category="summary">Você pode adicionar usuários locais ou usuários de banco de dados usando a página usuários. Você também pode adicionar usuários remotos ou grupos que pertencem a um servidor de autenticação. Você pode atribuir funções a esses usuários e, com base no Privileges das funções, os usuários podem gerenciar os objetos de storage e dados com o Unified Manager, ou exibir os dados em um banco de dados.</block>
   <block id="e12cdb6af9280f76fbd409784aba300f" category="doc">Adicionando usuários</block>
   <block id="df8f985e9f295a745eb487a476d19b5c" category="list-text">Para adicionar um utilizador ou grupo remoto, tem de ter ativado a autenticação remota e configurado o servidor de autenticação.</block>
@@ -2800,8 +2797,6 @@
   <block id="d1de0a7d7acb6c1e6d558f461b1c08b0" category="summary">Você pode configurar uma conexão segura entre o OnCommand Workflow Automation (WFA) e o Unified Manager. A conexão com o Workflow Automation permite que você use recursos de proteção, como fluxos de trabalho de configuração do SnapMirror e do SnapVault, bem como comandos para gerenciar relacionamentos do SnapMirror.</block>
   <block id="d59db8b6df454b51e95542f8e00577c1" category="doc">Configurando uma conexão entre o Workflow Automation e o Unified Manager</block>
   <block id="7d4c7aacafff21639e5db97e94a235a5" category="list-text">A versão instalada do Workflow Automation deve ser 5,1 ou superior.</block>
-  <block id="0c6e4a96f43d5868275a60909a3a24fc" category="inline-link">Pacote WFA para gerenciar ONTAP</block>
-  <block id="a651f3180f355ff52e480a3a6a43c122" category="paragraph">O pacote "WFA para gerenciar o Clustered Data ONTAP" está incluído no WFA 5,1, portanto, não há necessidade de baixar este pacote da Loja de Automação NetAppStorage e instalá-lo separadamente em seu servidor WFA, como era necessário no passado. <block ref="33bb079f56da49206dfe05941d30882d" category="inline-link-rx"></block></block>
   <block id="5b7d25b9e226028347921818ce714ea3" category="list-text">Você deve ter o nome do usuário do banco de dados que criou no Unified Manager para oferecer suporte às conexões DO WFA e do Unified Manager.</block>
   <block id="0baffa2d6dab374e8ae870aa23680370" category="paragraph">Esse usuário do banco de dados deve ter sido atribuído a função de usuário do esquema de integração.</block>
   <block id="209a170f4735b61e63946462f4cc839b" category="list-text">Você deve ser atribuído a função Administrador ou a função arquiteto no Workflow Automation.</block>
@@ -5283,9 +5278,6 @@
   <block id="076790dbfc4444ac90e62b970a3c9217" category="list-text">Anotações para objetos de armazenamento</block>
   <block id="53715e24fcf7438bf8bb2d96e3d34de8" category="list-text">Relatar a criação e o gerenciamento de informações de objetos de storage, como capacidade física e lógica, utilização, economia de espaço, desempenho e eventos relacionados</block>
   <block id="42c75971e03568e6221b99dd63d98865" category="list-text">Integração com o OnCommand Workflow Automation para executar fluxos de trabalho</block>
-  <block id="6750b5b2c975d66813d2ea8952f0bae1" category="paragraph">O repositório de automação do storage contém pacotes de fluxo de trabalho de storage automatizado certificados pela NetApp, desenvolvidos para uso com o OnCommand Workflow Automation (WFA). Você pode baixar os pacotes e depois importá-los para O WFA para executá-los. Os fluxos de trabalho automatizados estão disponíveis aqui:</block>
-  <block id="0479c8cefca250b39d519545313f1b42" category="inline-link">Armazenamento de automação de storage</block>
-  <block id="63f4e00d9f003710efd37fe0fad569e9" category="paragraph"><block ref="63f4e00d9f003710efd37fe0fad569e9" category="inline-link-rx"></block></block>
   <block id="97926c3c0aa12ad373dbf69a58ced1a0" category="summary">Uma anotação é uma cadeia de texto (o nome) que é atribuída a outra cadeia de texto (o valor). Cada par de nome-valor de anotação pode ser dinamicamente associado a objetos de armazenamento utilizando regras de anotação. Quando você associa objetos de armazenamento a anotações predefinidas, você pode filtrar e exibir os eventos relacionados a eles. É possível aplicar anotações a clusters, volumes e máquinas virtuais de storage (SVMs).</block>
   <block id="f31908a421aec1cdd05ce7a0e75cdd0d" category="doc">Quais são as anotações</block>
   <block id="a5f6dad6e945be3098b200fbe9769c43" category="paragraph">Cada nome de anotação pode ter vários valores; cada par de nome-valor pode ser associado a um objeto de armazenamento através de regras.</block>
@@ -8014,11 +8006,8 @@
   <block id="1dbab26c4cc554e2d686240dce4e1c32" category="summary">É possível reiniciar a máquina virtual (VM) do Unified Manager a partir do console de manutenção. Você deve reiniciar a VM depois de gerar um novo certificado de segurança ou se houver um problema com a VM.</block>
   <block id="69ce6df093b147c7a25a04bf00305588" category="list-text">O dispositivo virtual deve ser ligado.</block>
   <block id="a7e118ba2e133d1563cd19a15fe2a116" category="list-text">Você deve estar conetado ao console de manutenção do Unified Manager como usuário de manutenção.</block>
-  <block id="e073e6fe06cef770bc889b346bc6998f" category="paragraph">Você também pode reiniciar a máquina virtual do vSphere usando a opção VMware *Restart Guest*.</block>
   <block id="b6398bd7f47d9122f52612a31a850312" category="list-text">No console de manutenção, selecione *Configuração do sistema* &gt; *Reboot Virtual Machine*.</block>
   <block id="874e5f2c9cf179740df1c1b0a4b0a120" category="list-text">Inicie a IU da Web do Unified Manager a partir do seu navegador e inicie sessão.</block>
-  <block id="2a3a1fb09f0975179216fde1cbd8dc57" category="inline-link">Referência do VMware vSphere PowerCLI Cmdlets: Restart-VMGuest</block>
-  <block id="89cc3af736280ef7a3e6fc0e835ec56a" category="paragraph"><block ref="89cc3af736280ef7a3e6fc0e835ec56a" category="inline-link-rx"></block></block>
   <block id="b09592db93e99e16c02d56499bcc0e46" category="summary">Você pode fazer o upgrade para o Unified Manager no VMware vSphere</block>
   <block id="6466627cb684cdb56ba1cf34674cb157" category="paragraph">Você pode atualizar o Active IQ Unified Manager para a versão 9,14 apenas a partir da versão 9,12 ou 9,13.</block>
   <block id="366c5ab2a2994621800849cabe981121" category="paragraph">Durante o processo de atualização, o Unified Manager não está disponível. Você deve concluir todas as operações em execução antes de atualizar o Unified Manager.</block>
@@ -8220,7 +8209,6 @@
   <block id="13e3592e5e441ee49815c64ebd90f10f" category="list-text">Baixe a versão apropriada do OpenJDK (64 bits) do site OpenJDK para o sistema de destino.</block>
   <block id="4e6cb3b05eb2ca0baeb29eb6344e5432" category="paragraph">Por exemplo, faça o<block ref="3ea5e0fd12073d79066798f485ea1222" prefix=" " category="inline-code"></block>download do .</block>
   <block id="e3ea195a19318267cdc1d27ad9b8642c" category="inline-link-macro">Início de sessão da conta Oracle</block>
-  <block id="4f4395612db3fd87fa732ad4576c0447" category="admonition">Uma conta Oracle é necessária para baixar o arquivo. Se você não tiver uma conta Oracle, vá para <block ref="f286dce8bc3d39b38609ac0c11f4f840" category="inline-link-macro-rx"></block> a página para criar uma.</block>
   <block id="7d7f701fa4b6dfcc4812f34ebd909b72" category="list-text">Expanda o<block ref="adcdbd79a8d84175c229b192aadc02f2" prefix=" " category="inline-code"></block> ficheiro.</block>
   <block id="aa2b11ad1dd4cd77a6434da6fa1398a2" category="list-text">Copie os diretórios e arquivos do diretório resultante<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> (por exemplo,<block ref="20ea71c4664ee137228518ed973e20e3" prefix=" " category="inline-code"></block> para o local onde o Java está instalado. Exemplo:<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
   <block id="4ce60e4b06ffbfa5ed76fd9dbdcbe958" category="list-text">Inicie os serviços do Unified Manager usando o console dos Serviços do Windows:</block>
@@ -11693,7 +11681,6 @@
   <block id="149e7fe690799c939eb42fd569b85bf1" category="section-title">Visualização da replicação para configurações MetroCluster sobre IP</block>
   <block id="9ec26db79eb1cb03722ca1be8a38ede3" category="paragraph">Para configurações MetroCluster sobre IP, o status da replicação de dados é exibido na exibição de peek de topologia de um cluster protegido pelo MetroCluster sobre IP a partir das seguintes exibições no painel de navegação esquerdo do Unified Manager:</block>
   <block id="e6c30c17d4f47b3ee3ca6a46c0cea7e0" category="inline-link-macro">Monitore problemas de conetividade no MetroCluster sobre IP</block>
-  <block id="81b018597db40f10192fefede0d1af7f" category="paragraph">Para obter informações, <block ref="16e7babdd32b153bee5a98150b7128d9" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="9943af04f69bf96138f358b3c1db9507" category="section-title">Visualização da replicação para MetroCluster em configurações de FC</block>
   <block id="c1d47624946f3a469492d8dba1510dc8" category="paragraph">Siga estas etapas para determinar quaisquer problemas na replicação de dados para a configuração MetroCluster em FC.</block>
   <block id="ec42faa3ead49a8b30ba8625345423b8" category="paragraph">É apresentada uma lista dos clusters monitorizados.</block>
@@ -11977,4 +11964,14 @@
   <block id="46ddffc1618503c5b7bac4767df5963b" category="list-text">A coleta de 15 dias de dados de desempenho exige muito da CPU.  A NetApp recomenda que você escalone a adição de novos clusters para que as pesquisas de coleta de continuidade de dados não sejam executadas em muitos clusters ao mesmo tempo.  Além disso, se você reiniciar o Unified Manager durante o período de coleta de continuidade de dados, a coleta será interrompida e você verá lacunas nos gráficos de desempenho para o período ausente.</block>
   <block id="40bbb8b87d3598ac9845a44abe43f38c" category="list-text">Quando você adiciona um cluster ONTAP com a versão 9.14.1 ou posterior, a comunicação ocorre por meio do recurso do agente de nuvem.  O ONTAP cria automaticamente um usuário de conta de serviço interno com privilégios somente leitura (por exemplo, clus-agent-xxxx).  O Unified Manager para de coletar dados desses clusters se o<block ref="45b8c9da551ea3a5a411451e7d91c303" prefix=" " category="inline-code"></block> o usuário é excluído.</block>
   <block id="323f966c65a63cb769e4f899cb19451f" category="paragraph">Se uma operação de restauração falhar entre clusters do Cloud Volumes ONTAP HA com um erro NDMP, talvez seja necessário adicionar uma rota AWS explícita no cluster de destino para que o destino possa se comunicar com o LIF de gerenciamento de cluster do sistema de origem.  Execute esta etapa de configuração usando o NetApp Console.</block>
+  <block id="42429633f87d83134a274916f6a034c2" category="paragraph"><block ref="42429633f87d83134a274916f6a034c2" category="inline-link-rx"></block></block>
+  <block id="7735c39e24fb37c1d079ba9e3a91c264" category="paragraph"><block ref="7735c39e24fb37c1d079ba9e3a91c264" category="inline-link-rx"></block></block>
+  <block id="7c84ac4946087f09b4a17998f1e830e8" category="paragraph"><block ref="7c84ac4946087f09b4a17998f1e830e8" category="inline-link-rx"></block></block>
+  <block id="af050e52c447cd52b4b2f1ffdc032f19" category="inline-link">Download WFA</block>
+  <block id="d642dcc633390c2d9f210673280016ac" category="paragraph">O pacote "WFA para gerenciamento de Clustered Data ONTAP" está incluído no WFA 5.1, portanto, não é necessário baixar este pacote da NetAppStorage Automation Store e instalá-lo separadamente em seu servidor WFA, como era necessário anteriormente.<block ref="205df40c4c09810da80912824982d64d" category="inline-link-rx"></block></block>
+  <block id="b51ca7d8abeeddcb10f579ebf26d482d" category="paragraph"><block ref="b51ca7d8abeeddcb10f579ebf26d482d" category="inline-link-rx"></block></block>
+  <block id="23fc5f285866f9923f82c49b366b4bfa" category="inline-link">Restart-VMGuest cmdlet na referência de cmdlets do VMware vSphere PowerCLI da Broadcom.</block>
+  <block id="2923533b9f166644f807ccd4cdd652f4" category="paragraph">Você também pode reiniciar a máquina virtual a partir do vSphere usando a opção *Reiniciar convidado* do VMware. Consulte o<block ref="a33f828e317a613e852412bb653667c4" category="inline-link-rx"></block></block>
+  <block id="beaebf17f78286bd5f1e620cf360cf26" category="admonition">É necessário ter uma conta Oracle para baixar o arquivo. Caso não possua uma conta Oracle, acesse a <block ref="55cce93bb9914d623967628ae7efe815" category="inline-link-macro-rx"></block> página para criar uma.</block>
+  <block id="a527ebab83d1a9eadfaa72bd8d759e9e" category="paragraph">Para obter informações, consulte <block ref="60444ca73da53841cba391c890082cfa" category="inline-link-macro-rx"></block>.</block>
 </blocks>
