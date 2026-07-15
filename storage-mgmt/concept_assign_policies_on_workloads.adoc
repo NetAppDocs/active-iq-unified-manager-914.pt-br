@@ -15,6 +15,7 @@ Você pode atribuir políticas de eficiência de storage (SEPs) e níveis de ser
 
 
 
+[[assigning-policies-to-a-single-workload]]
 == Atribuição de políticas a uma única carga de trabalho
 
 Você pode atribuir um PSL ou um SEP ou ambos a uma única carga de trabalho. Siga estes passos:
@@ -35,6 +36,7 @@ Você também pode selecionar uma carga de trabalho e clicar em *mais ações* p
 ====
 
 
+[[assigning-policies-to-multiple-storage-workloads]]
 == Atribuição de políticas a vários workloads de storage
 
 Você pode atribuir uma PSL ou uma SEP a vários workloads de storage juntos. Siga estes passos:
@@ -53,6 +55,7 @@ A aplicação de políticas em cargas de trabalho em massa pode levar algum temp
 
 
 
+[[assigning-system-recommended-psls-to-workloads]]
 == Atribuição de PSLs recomendadas pelo sistema a cargas de trabalho
 
 Você pode atribuir PSLs recomendados pelo sistema a essas cargas de trabalho de storage em um data center que não tenha PSLs atribuídas ou as PSLs atribuídas não correspondem à recomendação do sistema. Para usar essa funcionalidade, clique no botão *Assign System Recommended PSLs* (atribuir PSLs recomendados pelo sistema). Não é necessário selecionar cargas de trabalho específicas.

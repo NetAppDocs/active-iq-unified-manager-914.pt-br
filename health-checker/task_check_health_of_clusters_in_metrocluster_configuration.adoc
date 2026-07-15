@@ -22,6 +22,7 @@ Você pode usar o Active IQ Unified Manager (Unified Manager) para verificar a i
 
 
 
+[[determining-cluster-health-in-metrocluster-over-fc-configuration]]
 == Determinando a integridade do cluster na configuração de MetroCluster em FC
 
 Siga estas etapas para determinar a integridade do cluster em uma configuração MetroCluster sobre FC.
@@ -60,6 +61,7 @@ Neste exemplo, se o ícone NVRAM no cluster local ou de parceiros estiver amarel
 
 
 
+[[determining-cluster-health-in-metrocluster-over-ip-configuration]]
 == Determinando a integridade do cluster na configuração MetroCluster sobre IP
 
 Siga estas etapas para determinar a integridade do cluster em uma configuração MetroCluster sobre IP.
